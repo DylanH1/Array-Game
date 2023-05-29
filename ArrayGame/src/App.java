@@ -12,9 +12,9 @@ public class App {
             //printing format
             ArrayUtils.prn("-------------");
             for (int i = 0; i < 9; i += 3) {
-                ArrayUtils.prnt("l ");
+                ArrayUtils.prnt("| ");
                 for (int j = i; j < i + 3; j++) {
-                    ArrayUtils.prnt(board[j] + " l ");
+                    ArrayUtils.prnt(board[j] + " | ");
                 }
                 ArrayUtils.prn("\n-------------");
             }
@@ -47,7 +47,7 @@ public class App {
                     for (int i = 0; i < 9; i += 3) {
                         ArrayUtils.prnt("l ");
                         for (int j = i; j < i + 3; j++) {
-                            ArrayUtils.prnt(board[j] + " l ");
+                            ArrayUtils.prnt(board[j] + " | ");
                         }
                         ArrayUtils.prn("\n-------------");
                     }
@@ -68,7 +68,7 @@ public class App {
                         for (int i = 0; i < 9; i += 3) {
                             ArrayUtils.prnt("l ");
                             for (int j = i; j < i + 3; j++) {
-                                ArrayUtils.prnt(board[j] + " l ");
+                                ArrayUtils.prnt(board[j] + " | ");
                             }
                             ArrayUtils.prn("\n-------------");
                         }

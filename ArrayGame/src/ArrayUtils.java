@@ -106,4 +106,7 @@ public class ArrayUtils {
     public static <T> void prn( T text){
         System.out.println(text);
     }
+    public static <T> void prnt( T text){
+        System.out.print(text);
+    }
 }
